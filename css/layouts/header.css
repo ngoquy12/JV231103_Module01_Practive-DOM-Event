@@ -1,0 +1,59 @@
+.header {
+  height: 56px;
+  width: 100%;
+  background-color: #c9cdd0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.header-left span {
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.option-container {
+  position: relative;
+}
+
+.fa-solid {
+}
+
+.fa-chevron-down {
+  cursor: pointer;
+}
+
+.list-option {
+  position: absolute;
+  width: 170px;
+  right: 0;
+  top: 30px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: none;
+}
+
+.option {
+  padding: 10px;
+}
+
+.option:hover {
+  background-color: #d8e4ed;
+  cursor: pointer;
+}
